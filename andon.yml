@@ -35,4 +35,4 @@ integration_testing:
       robot_framework: true
     commands:
       - test_commands:
-        - mvn -P robot -Drobot.url=http://order:8080 -Drobot.remote_url=http://hub:4444/wd/hub -Drobot.browser=chrome install
+        - cmd: mvn -P robot -Drobot.url=http://order:8080 -Drobot.remote_url=http://hub:4444/wd/hub -Drobot.browser=chrome install
